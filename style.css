@@ -1,31 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 5rem;
 }
 
-.nav-links{
+.nav-links {
     display: flex;
     gap: 1rem;
     list-style: none;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: #1D4ED8;
 }
-.btn{
+
+.btn {
     background-color: #1D4ED8;
     color: white;
     border: none;
@@ -35,7 +36,7 @@ a:hover{
 }
 
 
-.banner{
+.banner {
     background-image: url('./images/banner.jpg');
     background-size: cover;
     background-position: center;
@@ -44,7 +45,7 @@ a:hover{
     position: relative;
 }
 
-.banner-content{
+.banner-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,26 +56,209 @@ a:hover{
     max-width: 700px;
 }
 
-.banner-content h1{
+.banner-content h1 {
     font-size: 60px;
     margin-bottom: 20px;
 }
 
-.banner-content p{
+.banner-content p {
     margin-bottom: 100px;
     font-size: 18px;
     line-height: 1.6;
 }
 
 
-#speaker-tag{
+#speaker-tag {
     text-align: center;
     margin: 50px 0;
 }
-.speakers{
+
+.speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     justify-items: center;
 }
 
+
+
+.pricing-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.pricing-section h1 {
+    font-size: 48px;
+    color: #132033;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 45px;
+}
+
+.pricing-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing-card {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: left;
+}
+
+.pricing-card h5 {
+    color: #7c7c7c;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.pricing-card h2 {
+    font-size: 52px;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.price-text {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.pricing-card hr {
+    border: none;
+    border-top: 1px solid #e5e7eb;
+    margin: 20px 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.pricing-card li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #444;
+}
+
+.pricing-card li::before {
+    content: "•";
+    color: #2563eb;
+    margin-right: 10px;
+}
+
+.featured {
+    background: #0f1c2e;
+    color: white;
+}
+
+.featured h2,
+.featured h5,
+.featured .price-text,
+.featured li {
+    color: white;
+}
+
+.featured hr {
+    border-color: #2d3a4d;
+}
+
+.primary-btn,
+.outline-btn {
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+}
+
+.primary-btn:hover {
+    background: #1d4ed8;
+}
+
+.outline-btn {
+    background: white;
+    color: #2563eb;
+    border: 2px solid #2563eb;
+}
+
+.outline-btn:hover {
+    background: #2563eb;
+    color: white;
+}
+.ai-section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 60px;
+    background: #EEF2FF;
+    border: 2px dashed #7C3AED;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.ai-section h2 {
+    font-size: 48px;
+    color: #6D28D9;
+    margin-bottom: 15px;
+}
+
+.ai-subtitle {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.ai-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.ai-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .08);
+    text-align: left;
+}
+
+.ai-card h3 {
+    color: #1D4ED8;
+    margin-bottom: 15px;
+}
+
+.ai-card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.ai-section .btn {
+    padding: 14px 35px;
+    background: #2563EB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ai-section .btn:hover {
+    background: #1D4ED8;
+}
