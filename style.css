@@ -65,3 +65,16 @@ a:hover{
     font-size: 18px;
     line-height: 1.6;
 }
+
+
+#speaker-tag{
+    text-align: center;
+    margin: 50px 0;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
